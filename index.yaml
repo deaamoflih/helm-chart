@@ -1,14 +1,13 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-02-18T09:40:39.923229+01:00"
-    description: A Helm chart for Kubernetes
-    digest: e9d1fa1c73ad2c24c1c830f68e6843f00c612223644526f87e166164ae424e16
-    name: helm-chart-test
-    type: application
+  my-nginx:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-02-18T09:58:39.764958+01:00"
+    description: the first nginx App (local)
+    digest: 02a899d090b852b054d431694046b6c1ae8417090ee3ad8ea6ec8f3e3220082d
+    name: my-nginx
     urls:
-    - https://deaamoflih.github.io/helm-chart/helm-chart-test-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-02-18T09:40:39.920659+01:00"
+    - https://deaamoflih.github.io/helm-chart/my-nginx-0.5.0.tgz
+    version: 0.5.0
+generated: "2020-02-18T09:58:39.763692+01:00"
