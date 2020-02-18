@@ -9,7 +9,7 @@ entries:
     name: apache
     type: application
     urls:
-    - https://deaamoflih.github.io/helm-chart/apache-chart/apache-0.2.0.tgz
+    - https://deaamoflih.github.io/helm-chart/apache-0.2.0.tgz
     version: 0.2.0
   my-nginx:
   - apiVersion: v1
