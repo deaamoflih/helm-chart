@@ -1,13 +1,14 @@
 apiVersion: v1
 entries:
-  my-nginx:
-  - apiVersion: v1
-    appVersion: "1"
-    created: "2020-02-18T09:58:39.764958+01:00"
-    description: the first nginx App (local)
-    digest: 02a899d090b852b054d431694046b6c1ae8417090ee3ad8ea6ec8f3e3220082d
-    name: my-nginx
+  apache:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-02-18T12:48:28.990654+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 9bd6bf3afc489c75201d80a829c1be768dabdef3e6197135ea239bd71141a293
+    name: apache
+    type: application
     urls:
-    - https://deaamoflih.github.io/helm-chart/my-nginx-0.5.0.tgz
-    version: 0.5.0
-generated: "2020-02-18T09:58:39.763692+01:00"
+    - https://deaamoflih.github.io/helm-chart/apache-0.2.0.tgz
+    version: 0.2.0
+generated: "2020-02-18T12:48:28.982748+01:00"
