@@ -1,35 +1,13 @@
 apiVersion: v1
 entries:
-  apache:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-02-18T12:56:19.154227+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 9bd6bf3afc489c75201d80a829c1be768dabdef3e6197135ea239bd71141a293
-    name: apache
-    type: application
-    urls:
-    - https://deaamoflih.github.io/helm-chart/apache-0.2.0.tgz
-    version: 0.2.0
-  custom-apache-chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-02-18T15:27:13.066057+01:00"
-    description: A Helm chart for Kubernetes
-    digest: a0dbdd35fc8208ae448ece1c230c6ac813668acb23e962a4b4c18d93ec63254c
-    name: custom-apache-chart
-    type: application
-    urls:
-    - https://deaamoflih.github.io/helm-chart/custom-apache-chart-0.1.0.tgz
-    version: 0.1.0
-  my-nginx:
+  test19:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-02-18T12:56:19.153769+01:00"
-    description: the first nginx App (local)
-    digest: 02a899d090b852b054d431694046b6c1ae8417090ee3ad8ea6ec8f3e3220082d
-    name: my-nginx
+    created: "2020-02-19T15:36:15.279734+01:00"
+    description: Test 19 for the reverse proxy server NGINX
+    digest: 09319bff780b89f4197bbc8878f9ead85e993be0e7fadd59c616854b1cb591d2
+    name: test19
     urls:
-    - https://deaamoflih.github.io/helm-chart/my-nginx-0.5.0.tgz
-    version: 0.5.0
-generated: "2020-02-18T15:27:13.064591+01:00"
+    - https://deaamoflih.github.io/helm-chart/test19-1.tgz
+    version: "1"
+generated: "2020-02-19T15:36:15.276364+01:00"
